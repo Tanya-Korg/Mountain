@@ -1,0 +1,64 @@
+%svg-common {
+	background: url("../img/svg/sprite.svg") no-repeat;
+}
+
+%drop {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+%dims drop {
+	width: 220.99px;
+	height: 274.076px;
+}
+
+%heart {
+	@extend %svg-common;
+	background-position: 0 16.646489104116224%;
+}
+
+%dims heart {
+	width: 329.571px;
+	height: 321px;
+}
+
+%leaf {
+	@extend %svg-common;
+	background-position: 0 35.85814373941478%;
+}
+
+%dims leaf {
+	width: 285.547px;
+	height: 310.895px;
+}
+
+%left-arrow {
+	@extend %svg-common;
+	background-position: 0 62.0807665982204%;
+}
+
+%dims left-arrow {
+	width: 512px;
+	height: 512px;
+}
+
+%right-arrow {
+	@extend %svg-common;
+	background-position: 0 97.12525667351129%;
+}
+
+%dims right-arrow {
+	width: 512px;
+	height: 512px;
+}
+
+%wave {
+	@extend %svg-common;
+	background-position: 0 99.97592501029013%;
+}
+
+%dims wave {
+	width: 161.934px;
+	height: 41.535px;
+}
+

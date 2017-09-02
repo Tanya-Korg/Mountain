@@ -1,0 +1,56 @@
+.aboutUs{
+	background: url(../img/map-492w.png) 213px 20px no-repeat $bg-color;
+	
+}
+.aboutUsBox{
+	display: flex;
+	        flex-flow: row;
+	        justify-content: space-between;
+	width: 1566px;
+		margin: 0 auto;
+}
+.aboutUs__textBox{
+	width: 43%;
+	padding: 256px 0 0 177px;
+}
+.aboutUs__h3{
+	margin-bottom: 34px;
+}
+
+.aboutUs__p{
+	@extend %paragr-fonts;
+	margin-bottom: 33px;
+}
+
+.aboutUs__btn{
+	padding: 16px 26px;
+}
+
+.aboutUs__imgBox{
+	position: relative;
+	width: 57%;
+	height: 668px;
+}
+.img_position{
+	position: absolute;
+}
+
+.aboutUs__img1{
+	width: 812px;
+	height: 575px;
+	background: url(../img/pic808x540.jpg) center no-repeat;
+	background-size: cover;
+	top: -36px;
+	left: 89px;
+				}
+
+.aboutUs__img2{
+	width: 355px;
+	height: 352px;
+	background: url(../img/about-us-pic2-354w.jpg) center no-repeat;
+	background-size: cover;
+	bottom: 10px;
+	left: 0;
+	
+}
+

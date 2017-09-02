@@ -1,0 +1,42 @@
+.sec1{
+	background: url(../img/main-bg1600x582.jpg) center no-repeat;
+	background-size: cover;
+	height: 700px;
+	padding-top: 257px;
+	position: relative;
+}
+.sec1__box{
+	width: 100%;
+	max-width: 1138px;
+	margin: 0 auto;
+	padding-left: 41px;
+	position: relative;
+}
+
+.sec1__h1{
+	position: relative;
+font-weight: bold;
+font-size: 49px;
+text-transform: uppercase;
+color: #fff;
+	letter-spacing: 7px;
+}
+	
+.sec1__titleSpan{
+	font-family: 'Bringin';
+	font-size: 66px;
+	color: $main-color;
+	position: absolute;
+	top: 29px;
+	
+}
+.sec1__p{
+	@extend %paragr-fonts;
+	font-size: 18px;
+	color: #d9dfe4;
+	margin: 63px 0 32px;
+	width: 40%;
+}
+.sec1__btn{
+	padding: 25px 76px;
+}

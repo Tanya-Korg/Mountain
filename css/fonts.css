@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+       url('../fonts/OpenSans-Bold.woff') format('woff'),
+       url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+       url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg'),
+       url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bringin';
+  src: url('../fonts/9108.otf');
+	 font-weight: bold;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/8143.otf');
+	 font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-ExtraBold.ttf');
+	 font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../fonts/Roboto-Black.ttf');
+	 font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto-Light.ttf');
+	 font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+       url('../fonts/OpenSans-Regular.woff') format('woff'),
+       url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+       url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg'),
+       url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Bold.eot');
+  src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+       url('../fonts/Raleway-Bold.woff') format('woff'),
+       url('../fonts/Raleway-Bold.ttf') format('truetype'),
+       url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg'),
+       url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

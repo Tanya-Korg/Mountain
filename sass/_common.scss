@@ -1,0 +1,57 @@
+body{
+	font-family: 'OpenSans', Arial, sans-serif;
+}
+
+.container{
+	width: 100%;
+	max-width: 1138px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row;
+}
+section{
+	padding: 112px 0 88px;
+}
+
+.btn_style{
+	background-color: $main-color;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border: none;
+}
+
+
+h3{
+font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+color: $title-color;
+}
+
+h2{
+font-weight: bold;
+font-size: 30px;
+text-transform: uppercase;
+color: $title-color;
+text-align: center;
+	margin-bottom: 76px;
+	letter-spacing: 3px;
+	position: relative;
+}
+
+h2::before{
+	content: '';
+	background: url(../img/svg/parts/wave.png) center no-repeat;
+	width: 161px;
+	height: 40px;
+	position: absolute;
+	bottom: 42px;
+	left: 50%;
+	margin-left: -80px;
+	display: block;
+	
+}

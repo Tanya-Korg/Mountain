@@ -1,0 +1,51 @@
+.partners{
+
+	background-color: #f8f9fa;
+	padding: 77px 0 74px;
+}
+.partners__box{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+.partners__item{
+	
+}
+.partners__slack{
+	@extend %Logos--slack;
+	width: 80px;
+	height: 29px;
+	background-size: 100%;
+	color: #000;
+}
+.partners__a{
+	@extend %logos--a;
+	width: 42px;
+	height: 42px;
+}
+.partners__google{
+	@extend %Logos--google;
+	width: 85px;
+	height: 36px;
+}
+.partners__fb{
+	@extend %Logos--fb;
+	width: 85px;
+	height: 24px;
+}
+.partners__sportify{
+	@extend %Logos--sportify;
+	width: 85px;
+	height: 32px;
+}
+.partners__nike{
+	@extend %Logos--nike;
+	width: 70px;
+	height: 33px;
+}
+.partners__item_marginLarge{
+	margin-right: 155px;
+}
+.partners__item_marginSmall{
+	margin-right: 135px;
+}

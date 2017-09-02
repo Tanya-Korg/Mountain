@@ -1,0 +1,136 @@
+.travelWithUs{
+	background: url(../img/map-bg-1322w.png) -20px 93px no-repeat,
+	 url(../img/travel_bg_1920w.jpg) bottom no-repeat;
+	background-size: 100%;
+	height: 1084px;
+}
+.travelWithUs__box {
+	justify-content: space-between;
+}
+.travelWithUs__item {
+	width: 202px;
+	height: 384px;
+	padding: 16px 20px;
+	color: #fff;
+	font-weight: normal;
+	position: relative;
+	border-radius: 9px;
+	margin: 0 15px;
+}
+.carpatian{
+	background: url(../img/how-we-work-pic1.jpg)center no-repeat;
+}
+.alps{
+	background: url(../img/how-we-work-pic2.jpg)center no-repeat;
+}
+.pyrenees{
+	background: url(../img/how-we-work-pic3.jpg)center no-repeat;
+}
+.rocky{
+	background: url(../img/how-we-work-pic4.jpg)center no-repeat;
+}
+.kavkaz{
+	background: url(../img/how-we-work-pic5.jpg)center no-repeat;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+}
+
+.slick-prev{
+    z-index: 9999;
+    left: 15px;
+}
+.slick-next{
+    right: 15px;
+}
+.slick-dots li button{
+    display: none;
+}
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-next:before {
+    content: '';
+    width: 39px;
+    height: 39px;
+    background: url(../img/svg/parts/right-arrow.svg) center  no-repeat;
+    background-size: 100%;
+	display: block;
+}
+.slick-prev:before {
+    content: '';
+    width: 39px;
+    height: 39px;
+    background: url(../img/svg/parts/left-arrow.svg)no-repeat;
+    background-size: 100%;
+	display: block;
+}
+//SLICK END
+
+.star {
+	background: url(../img/svg/parts/stary.png);
+	height: 15px;
+	display: block;
+}
+
+.twoStars {
+	width: 38px;
+}
+
+.threeStars {
+	width: 58px;
+}
+
+.fourStars {
+	width: 77px;
+}
+
+.fiveStars {
+	width: 97px;
+}
+
+.travelWithUs__h4 {
+	font-size: 28px;
+	margin: 126px 0 17px 0;
+}
+
+.travelWithUs__p {
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.travelWithUs__prices {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 63px;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 0 12px 0 21px;
+}
+
+.travelWithUs__priceOld {
+	font-size: 18px;
+	text-decoration: line-through;
+}
+
+.travelWithUs__priceNew {
+	font-weight: 800;
+	font-size: 26px;
+}

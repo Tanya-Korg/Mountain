@@ -1,0 +1,119 @@
+.ourJournal__box {
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 26px 12px #f6f4f4;
+}
+.row__item {
+	width: 379px;
+	height: 380px;
+	position: relative;
+}
+
+.item_bg1 {
+	background: url(../img/journal-pic1-382w.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.item_bg2 {
+	background: url(../img/journal-pic2-382w.jpg) center no-repeat;
+	background-size: cover;
+perspective: 200px;
+}
+
+.item_bg3 {
+	background: url(../img/journal-pic3-382w.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.icon_heart::after {
+	content: '';
+	display: block;
+@extend %heart;
+	background-size: 100%;
+	width: 136.857px;
+	height: 85.429px;
+	position: absolute;
+	top: 50%;
+	left: 50%;	
+	margin-top: -42px;
+	margin-left: -37px;
+}
+
+.icon_drop:after {
+	content: '';
+	display: block;
+	@extend %drop;
+	background-size: 100%;
+		width: 176.521px;
+	height: 94.567px;
+		position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -47px;
+	margin-left: -32px;
+}
+
+//@keyframes zooming {
+//  0%   { transform: translate3d(0, 0, 0); }
+//  100% { transform: translate3d(0, 0, 200px); }
+//}
+//.item_bg2:hover.icon_drop:after{
+//	animation: zooming 5s alternate;
+//}
+  
+.icon_leaf::after {
+	content: '';
+	display: block;
+	@extend %leaf;
+	background-size: 100%;
+		width: 133.24px;
+	height: 79.508px;
+		position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -35px;
+	margin-left: -30px;
+}
+
+
+
+.item_text {
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.ourJournal__item__span {
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: $main-color;
+	letter-spacing: 2px;
+}
+
+.ourJournal__item__h4 {
+	width: 85%;
+	font-weight: bold;
+	font-size: 16.15px;
+	text-transform: uppercase;
+	margin: 49px auto 32px;
+	letter-spacing: 2px;
+    word-spacing: 4px;
+	line-height: 1.5;
+}
+
+.ourJournal__item__p {
+	@extend %paragr-fonts;
+	margin: 0 auto;
+	margin-bottom: 42px;
+	width: 85%;
+	
+}
+
+.lineThrought {
+	text-decoration: line-through;
+}
+
+.ourJournal__item__num {
+	font-family: Times New Roman Regular;
+	font-size: 14px;
+}

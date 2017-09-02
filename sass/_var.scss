@@ -1,0 +1,23 @@
+$main-color: #36aeea;
+$title-color: #2c2e37;
+$text-color: #777777;
+$bg-color: #f6f4f4;
+$bg-color2: #f0f3f6;
+
+
+
+
+%title-fonts{
+font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+color: $title-color;
+}
+
+
+
+%paragr-fonts{
+font-weight: normal;
+font-size: 14px;
+color: $text-color;
+}
